@@ -11,7 +11,7 @@ while True:
 		print('start should be smaller or equal to end')
 r = random.randint(start, end)
 count = 0
-guess = 0
+guess = ''
 while guess != r:
 	guess = input('Please make a guess: ')
 	count += 1
